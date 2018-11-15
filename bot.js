@@ -58,7 +58,7 @@ message.channel.send(args.join("  "))
 });
 
 
-client2.on('message', message => { 
+client.on('message', message => { 
 if (message.content === '!on!') {
       let count = 0;
       let ecount = 0;
