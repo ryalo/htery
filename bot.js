@@ -4,14 +4,14 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
-   console.log(`----------------`);
+   console.log(`Oops `);
+   console.log(`-----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
    console.log(`Loadinng..`);
    console.log(`Loadinng...`);
-   console.log(`This Bots Online ' `);
-   console.log(`----------------`);
+   console.log(`done ' `);
+   console.log(`-----------------`);
 });
 
 
