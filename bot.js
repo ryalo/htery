@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-const prefix = "!"
+const prefix = "1"
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -59,7 +59,7 @@ message.channel.send(args.join("  "))
 
 
 client.on('message', message => { 
-if (message.content === '!on!') {
+if (message.content === '1on!') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -73,7 +73,7 @@ if (message.content === '!on!') {
 });
 
 client2.on('message', message => { 
-if (message.content === '!on!') {
+if (message.content === '1on!') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
